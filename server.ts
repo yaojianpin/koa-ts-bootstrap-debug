@@ -49,3 +49,4 @@ app.use(router.routes());
 app.use(router.allowedMethods());
 
 app.listen(3000);
+console.log('koa server started, please type localhost:3000 in browser address');
