@@ -1,0 +1,36 @@
+
+.navbar-nav .nav-item {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.navbar-nav .nav-item.active,
+.navbar-nav .nav-item:hover {
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-color: royalblue;
+}
+
+.banner img {
+    height: 200px;
+    object-fit: cover;
+}
+.products {
+    margin-top: 15px;
+}
+
+.products .product {
+    padding: 0 25px;
+}
+
+.products .product .card-block {
+    padding: 5px;
+}
+
+.products .product:first-child{
+    padding-left: 15px;
+}
+
+.products .product:last-child {
+    padding-right: 15px;
+}

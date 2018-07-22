@@ -1,0 +1,13 @@
+<section class="row products">
+    {{each products product }}
+    <div class="product col-sm-{{ 12 / products.length }}">
+        <div class="card" >
+            <img class="card-img-top" src="{{product.imageUrl}}" alt="Card image cap">
+            <div class="card-block">
+                <h3 class="card-title">{{ product.title }}</h3>
+                <p class="card-text">{{ product.desc }}</p>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</section>

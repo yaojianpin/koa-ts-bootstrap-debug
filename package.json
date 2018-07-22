@@ -1,0 +1,38 @@
+{
+  "name": "koa-website-demo",
+  "version": "1.0.0",
+  "description": "koa2 + ts + bootstrap + debug demo",
+  "main": "server.ts",
+  "license": "MIT",
+  "keywords": [
+    "koa2",
+    "typescript",
+    "bootstrap",
+    "art-template",
+    "vs debug"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaojianpin/koa-website-demo.git"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node-dev ./server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "art-template": "^4.12.2",
+    "koa": "^2.5.2",
+    "koa-art-template": "^1.1.1",
+    "koa-body": "^4.0.4",
+    "koa-logger": "^3.2.0",
+    "koa-mount": "^3.0.0",
+    "koa-onerror": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.46",
+    "ts-node-dev": "^1.0.0-pre.26",
+    "typescript": "^2.9.2"
+  }
+}
