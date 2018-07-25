@@ -1,7 +1,7 @@
 # koa-ts-bootstrap-debug
 create a demo with koa, typescript, bootstrap
 
-## Hoe to run
+## How to run
 ```
 yarn install
 yarn start
